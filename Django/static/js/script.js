@@ -60,9 +60,9 @@ if (photoInput)
   photoInput.onchange = () => {
     const [file] = photoInput.files;
     if (file) {
-      photoPreview.src = URL.createObjectURL(file);
+      photoPreview.src = URL.createObjectURL(file); 
     }
-  };
+  }; 
 
 // Scroll to Bottom
 const conversationThread = document.querySelector(".room__box");
