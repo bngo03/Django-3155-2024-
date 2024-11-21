@@ -61,7 +61,7 @@ if (photoInput)
     const [file] = photoInput.files;
     if (file) {
       photoPreview.src = URL.createObjectURL(file); 
-    }
+    } 
   }; 
 
 // Scroll to Bottom
